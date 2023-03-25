@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <meta name="description"
+            content="The Contact Page For Joey & Katelyn Music. Where you can join the mailing list, send an email, or check out our social media pages." />
+        <meta name="keywords"
+            content="Katelyn & Joey, Katelyn and Joey, Joey and Katelyn, Joey & Katelyn, Katelyn and Joey Music, Katelyn & Joey Music, Rhode Island Live Music, Joey Peavey, Katelyn Belyea, Joey and Katelyn Musicians, Joey & Katelyn Musicians" />
+        <link href="styles/style.css" type="text/css" rel="stylesheet">
+        <link href="styles/jquery-ui.css" rel="stylesheet">
+        <link href="styles/jquery-ui.theme.css" rel="stylesheet">
+        <link href="styles/jquery-ui.structure.css" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <!--Logo-->
+        <div tabindex="0" class="center">
+            <br/><br/>
+            <img src="images/Joey-Katelyn_Header.png" alt="The Joey and Katelyn Music Logo" style="width:100%">
+        </div>
+        
+        <div class="fixed-bg-mini"></div>
+        
+        <!--Timed Greeting-->
+        <div id="greeting"></div>
+
+        <div class="fixed-bg-100"></div>
+        
+                <div tabindex="0" class="slideshow center">
+            <div tabindex="0">
+                <h1>Welcome to the Official Page of Katelyn Belyea and Joey Peavey!</h1>
+            </div>
+            <!--Acquired from W3 Schools to Make an Animated Slideshow-->
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides w3-animate-fading" src="images/JoeyKatelynPiano.jpg" alt="Joey and Katelyn at the piano." style="width:100%">
+                <img class="mySlides w3-animate-fading" src="images/JoeyKatelynPortrait.jpg" alt="A picture of Joey and Katelyn." style="width:100%">
+                <img class="mySlides w3-animate-fading" src="images/JoeyKatelynFunny.JPG" alt="Joey and Katelyn having fun at a gig." style="width:100%">
+            </div>
+        </div>
+        
+        <div class="fixed-bg"></div>
+        
+        <!--Form to Subscribe to a Newsletter-->
+        <div tabindex="0" class="newsletter">
+            <h1>Subscribe to Our Newsletter!</h1>
+            <hr>
+            <p>Enter your email in the box below to receive the latest news and information about us!</p>
+            <!--Placeholder URL until a MailChimp is made-->
+            <form action="contact.html" method="post">
+                <input type="email" placeholder="Email" required>
+                <br>
+                <button type="submit">Submit Now</button>
+            </form>
+        </div>
+        
+        <div class="fixed-bg-200"></div>
+        
+        <!--Fixed Sticky Navigation Bar-->
+        <div tabindex="0" id="navcontainer">
+            <ul class="navbar">
+                <li class="navlist" id="homeHover"><a href="index">Home</a></li>
+                <li class="navlist" id="aboutHover"><a href="about">About</a></li>
+                <li class="navlist" id="experienceHover"><a href="experience">Experience</a></li>
+                <li style="float:right" class="navlist" id="contactHover"><a class="active" href="contact">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <!--Input to Check Clients' Schedule-->
+        <div tabindex="0" class="checkSchedule">
+            <h1>Want to Book Us?</h1>
+            <hr>
+            <p>Check here to see if the date is available!</p>
+            <input type="text" name="date" id="date" placeholder="xx/xx/xxxx">
+            <br>
+            <button type="submit">Check</button>
+            
+            
+            
+            <!--ADD METHOD TO SEE IF DATE IS AVAILABLE-->
+            
+            
+            
+        </div>
+        
+        <div class="fixed-bg-mini"></div>
+        
+        <!--Form to Email my clients-->
+        <div tabindex="0" class="sendEmail">
+            <h1>Email Us!</h1>
+            <hr>
+            <p>Type Your Email Here!</p>
+            <form action="mailto:katelynjoeymusic@gmail.com" method="post" enctype="text/plain">
+                <textarea name="test" rows="50" cols="30">
+                </textarea> <br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+        <div class="fixed-bg"></div>
+
+
+        <!--Links to clients' socials-->
+        <div tabindex="0" class="content">
+        
+            <h1 tabindex="0">
+                Socials:
+            </h1>
+
+            <br/>
+
+            <div tabindex="0" class="insta center">
+                <img src="images/InstagramIconBlack.png" class="img-bot" alt="UnHovered Instagram" style="width: 10%;">
+                <a href="https://www.instagram.com/katelynjoeymusic/"><img src="images/InstagramIconColor.png" class="img-top" alt="Hovered Instagram" style="width: 10%;"></a>
+            </div>
+
+            <div tabindex="0" class="facebook center">
+                <img src="images/FacebookIconBlack.png" class="img-bot" alt="UnHovered Facebook" style="width: 10%;">
+                <a href="https://www.facebook.com/katelynjoeymusic?mibextid=LQQJ4d"><img src="images/FacebookIconColor.png" class="img-top" alt="Hovered Facebook" style="width: 10%;"></a>
+            </div>
+
+            <div tabindex="0" class="youtube center">
+                <img src="images/YoutubeIconBlack.png" class="img-bot" alt="UnHovered Youtube" style="width: 10%;">
+                <a href="https://youtube.com/@katelynandjoeymusic8495"><img src="images/YoutubeIconColor.png" class="img-top" alt="Hovered Youtube" style="width: 10%;"></a>
+            </div>
+
+        </div>
+        
+        <!--Quick contact info for me-->
+        <div id="address">
+            
+            <address>
+                <p>Website created by Zach Breene. <br/> Contact the author at <a href="mailto:zachary_breene@uri.edu">zachary_breene@uri.edu</a> for further inquiries.</p>
+            </address>
+        
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jQueryFeatures.js"></script>
+        <script src="js/slideshow.js"></script>
+        <script src="js/timedGreeting.js"></script>
+        <script src="js/getSetCSS.js"></script>
+        <script src="js/navHover.js"></script>
+    </body>
+</html>
