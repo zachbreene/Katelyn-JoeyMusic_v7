@@ -37,7 +37,7 @@ function loadXMLDoc(filePath, index) {
 //event listeners for katelyn image
 var katelynImg = document.getElementById("bio1");
 katelynImg.addEventListener("click", function() {
-  loadXMLDoc("katelyn-data.xml", 0);
+  loadXMLDoc("data/katelyn-data.xml", 0);
   changeOpacities();
   katelynImg.style.opacity = "1";
 });

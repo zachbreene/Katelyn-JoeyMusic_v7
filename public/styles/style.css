@@ -4,7 +4,7 @@
 }
 
 .fixed-bg {
-    background-image: url("../images/JoeyKatelynBG.JPG");
+    background-image: url("../images/joeykatelynbg.jpg");
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -13,7 +13,7 @@
   }
 
 .fixed-bg-200 {
-    background-image: url("../images/JoeyKatelynBG.JPG");
+    background-image: url("../images/joeykatelynbg.jpg");
     min-height: 200px;
     background-attachment: fixed;
     background-position: center;
@@ -22,7 +22,7 @@
   }
 
 .fixed-bg-100 {
-    background-image: url("../images/JoeyKatelynBG.JPG");
+    background-image: url("../images/joeykatelynbg.jpg");
     min-height: 100px;
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +31,7 @@
   }
 
 .fixed-bg-mini {
-    background-image: url("../images/JoeyKatelynBG.JPG");
+    background-image: url("../images/joeykatelynbg.jpg");
     min-height: 20px;
     background-attachment: fixed;
     background-position: center;

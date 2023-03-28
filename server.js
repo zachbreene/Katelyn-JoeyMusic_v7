@@ -59,14 +59,14 @@ http.createServer(function(req,res){
             break;           
 
         //JS
-        case '/js/getSetCSS.js':
-            serveStaticFile(res,'/public/js/getSetCSS.js','text/javascript');
+        case '/js/getsetcss.js':
+            serveStaticFile(res,'/public/js/getsetcss.js','text/javascript');
             break;  
         case '/js/gigs-html.js':
             serveStaticFile(res,'/public/js/gigs-html.js','text/javascript');
             break;  
-        case '/js/goalsScript.js':
-            serveStaticFile(res,'/public/js/goalsScript.js','text/javascript');
+        case '/js/goalsscript.js':
+            serveStaticFile(res,'/public/js/goalsscript.js','text/javascript');
             break; 
         case '/js/joey-json.js':
             serveStaticFile(res,'/public/js/joey-json.js','text/javascript');
@@ -74,8 +74,8 @@ http.createServer(function(req,res){
         case '/js/jquery-3.6.3.js':
             serveStaticFile(res,'/public/js/jquery-3.6.3.js','text/javascript');
             break; 
-        case '/js/jQueryFeatures.js':
-            serveStaticFile(res,'/public/js/jQueryFeatures.js','text/javascript');
+        case '/js/jqueryfeatures.js':
+            serveStaticFile(res,'/public/js/jqueryfeatures.js','text/javascript');
             break; 
         case '/js/jquery-ui.js':
             serveStaticFile(res,'/public/js/jquery-ui.js','text/javascript');
@@ -83,8 +83,8 @@ http.createServer(function(req,res){
         case '/js/katelyn-xml.js':
             serveStaticFile(res,'/public/js/katelyn-xml.js','text/javascript');
             break; 
-        case '/js/navHover.js':
-            serveStaticFile(res,'/public/js/navHover.js','text/javascript');
+        case '/js/navhover.js':
+            serveStaticFile(res,'/public/js/navhover.js','text/javascript');
             break; 
         case '/js/slideshow.js':
             serveStaticFile(res,'/public/js/slideshow.js','text/javascript');
@@ -92,11 +92,11 @@ http.createServer(function(req,res){
         case '/js/start-jq.js':
             serveStaticFile(res,'/public/js/start-jq.js','text/javascript');
             break; 
-        case '/js/timedGreeting.js':
-            serveStaticFile(res,'/public/js/timedGreeting.js','text/javascript');
+        case '/js/timedgreeting.js':
+            serveStaticFile(res,'/public/js/timedgreeting.js','text/javascript');
             break; 
-        case '/js/updateInstrument.js':
-            serveStaticFile(res,'/public/js/updateInstrument.js','text/javascript');
+        case '/js/updateinstrument.js':
+            serveStaticFile(res,'/public/js/updateinstrument.js','text/javascript');
             break; 
 
         //Images
@@ -109,44 +109,44 @@ http.createServer(function(req,res){
         case '/images/404top_w.jpg':
             serveStaticFile(res,'/public/images/404top_w.jpg','image/jpg');
             break;
-        case '/images/aboutUs.jpg':
-            serveStaticFile(res,'/public/images/aboutUs.jpg','image/jpg');
+        case '/images/aboutus.jpg':
+            serveStaticFile(res,'/public/images/aboutus.jpg','image/jpg');
             break;
-        case '/images/FacebookIconBlack.png':
-            serveStaticFile(res,'/public/images/FacebookIconBlack.png','image/png');
+        case '/images/facebookiconblack.png':
+            serveStaticFile(res,'/public/images/facebookiconblack.png','image/png');
             break;
-        case '/images/FacebookIconColor.png':
-            serveStaticFile(res,'/public/images/FacebookIconColor.png','image/png');
+        case '/images/facebookiconcolor.png':
+            serveStaticFile(res,'/public/images/facebookiconcolor.png','image/png');
             break;
         case '/images/gigs.png':
             serveStaticFile(res,'/public/images/gigs.png','image/png');
             break;
-        case '/images/InstagramIconBlack.png':
-            serveStaticFile(res,'/public/images/InstagramIconBlack.png','image/png');
+        case '/images/instagramiconblack.png':
+            serveStaticFile(res,'/public/images/instagramiconblack.png','image/png');
             break;
-        case '/images/InstagramIconColor.png':
-            serveStaticFile(res,'/public/images/InstagramIconColor.png','image/png');
+        case '/images/instagramiconcolor.png':
+            serveStaticFile(res,'/public/images/instagramiconcolor.png','image/png');
             break;
-        case '/images/Joey-Katelyn_Header.png':
-            serveStaticFile(res,'/public/images/Joey-Katelyn_Header.png','image/png');
+        case '/images/joey-katelyn_header.png':
+            serveStaticFile(res,'/public/images/joey-katelyn_header.png','image/png');
             break;        
-        case '/images/JoeyKatelynBG.JPG':
-            serveStaticFile(res,'/public/images/JoeyKatelynBG.JPG','image/JPG');
+        case '/images/joeykatelynbg.JPG':
+            serveStaticFile(res,'/public/images/joeykatelynbg.jpg','image/jpg');
             break; 
-        case '/images/JoeyKatelynFunny.jpg':
-            serveStaticFile(res,'/public/images/JoeyKatelynFunny.jpg','image/jpg');
+        case '/images/joeykatelynfunny.jpg':
+            serveStaticFile(res,'/public/images/joeykatelynfunny.jpg','image/jpg');
             break;               
-        case '/images/JoeyKatelynPiano.jpg':
-            serveStaticFile(res,'/public/images/JoeyKatelynPiano.jpg','image/jpg');
+        case '/images/joeykatelynpiano.jpg':
+            serveStaticFile(res,'/public/images/joeykatelynpiano.jpg','image/jpg');
             break;  
-        case '/images/JoeyKatelynPortrait.jpg':
-            serveStaticFile(res,'/public/images/JoeyKatelynPortrait.jpg','image/jpg');
+        case '/images/joeykatelynportrait.jpg':
+            serveStaticFile(res,'/public/images/joeykatelynportrait.jpg','image/jpg');
             break;  
-        case '/images/JoeyPic.jpeg':
-            serveStaticFile(res,'/public/images/JoeyPic.jpeg','image/jpeg');
+        case '/images/joeypic.jpeg':
+            serveStaticFile(res,'/public/images/joeypic.jpeg','image/jpeg');
             break;  
-        case '/images/KatelynPic.jpg':
-            serveStaticFile(res,'/public/images/KatelynPic.jpg','image/jpg');
+        case '/images/katelynpic.jpg':
+            serveStaticFile(res,'/public/images/katelynpic.jpg','image/jpg');
             break;      
         case '/images/placement.jpg':
             serveStaticFile(res,'/public/images/placement.jpg','image/jpg');
@@ -163,11 +163,11 @@ http.createServer(function(req,res){
         case '/images/x.png':
             serveStaticFile(res,'/public/images/x.png','image/png');
             break; 
-        case '/images/YoutubeIconBlack.png':
-            serveStaticFile(res,'/public/images/YoutubeIconBlack.png','image/png');
+        case '/images/youtubeiconblack.png':
+            serveStaticFile(res,'/public/images/youtubeiconblack.png','image/png');
             break; 
-        case '/images/YoutubeIconColor.png':
-            serveStaticFile(res,'/public/images/YoutubeIconColor.png','image/png');
+        case '/images/youtubeiconcolor.png':
+            serveStaticFile(res,'/public/images/youtubeiconcolor.png','image/png');
             break;         
 
         //Default HTML

@@ -23,7 +23,7 @@ function loadBookData(filePath) {
     var gigImg = document.getElementById('gigsData');
     
   gigImg.addEventListener('click', () => {
-    loadBookData('gigs-data.html');
+    loadBookData('data/gigs-data.html');
     changeOpacity();
     gigImg.style.opacity = 1;
   });

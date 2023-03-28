@@ -26,7 +26,7 @@ function changeImageOpacity() {
   //event listener for joey
   var joeyImg = document.getElementById('bio2');
   joeyImg.addEventListener('click', function() {
-    loadJSON('joey-data.json', 0);
+    loadJSON('data/joey-data.json', 0);
     changeImageOpacity();
     joeyImg.style.opacity = 1;
   });
